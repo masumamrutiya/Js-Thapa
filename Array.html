@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    const array=["ram","hari","sita","bishal","gita"]
+    console.log("ARRAY IS :" ,array);
+    // console.log("ARRAY IS :" ,array[2]);
+    // array.push("masum")
+    // console.log("ARRAY IS :" ,array);
+    //  console.log("ARRAY IS :" ,array.push("kush"),array);
+    // const add=array.push("kkk")
+    // console.log("ADD IS :",add);
+
+      // line by line show karva mate for of loop
+        // value leva mate hoy
+
+    // for(let item of array){
+    //     console.log(item);
+        
+    // }
+
+
+     // line by line show karva mate for in loop
+        // index leva mate hoy 0,1,2,3,4.......
+
+    // for(let item in array){
+    //     console.log(item);
+        
+    // }
+
+
+      // FOR EACH =>aaray ma funtion tarke kam kre 3 pararameter currentelement-index-arr
+
+    //   array.forEach((currele,index,arr)=>{
+    //     console.log(`${currele} ${index} ${arr}`);
+        
+    //   })
+
+    // map 
+
+      array.map((currele,index,arr)=>{
+        console.log(` people name is : ${currele} `);
+        
+      })
+      
+
+      //pop
+    //   console.log(array.pop());
+    //   console.log(array);
+
+    //    console.log(array.unshift());
+    //   console.log(array);
+
+     // Splice
+     console.log(array.splice(1));
+     
+      
+   const numbers =[1,2,3,4,5,6,7,8,9]
+   const result =numbers.map((curelm)=>curelm*5);
+   console.log(result);
+   const result2 = result.findIndex((curelm)=>{
+    return curelm > 30
+   })
+   console.log(result2);
+   
+   
+    
+</script>
